@@ -13,12 +13,12 @@ var form = document.getElementById("my-form");
         }
 
       }).then(response => {
-         status.innerHTML = alert ("Thanks for your submission!");
+         status.innerHTML = "Thanks for your submission!";
         form.reset()
         status.classList.add('success');
       }).catch(error => {
         status.classList.add('error');
-        status.innerHTML = alert("Oops! There was a problem submitting your form");
+        status.innerHTML = "Oops! There was a problem submitting your form";
       });
     }
     form.addEventListener("submit", handleSubmit)
