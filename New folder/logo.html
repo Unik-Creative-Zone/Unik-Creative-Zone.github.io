@@ -44,6 +44,41 @@
         .animate:hover {
             transform: scale(1);
         }
+
+        #status {
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            padding: 10px;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+
+        #status.success {
+            background-color: rgb(211, 250, 153);
+            animation: status 4s ease forwards;
+        }
+        #status.error {
+            background-color: rgb(250, 129, 92);
+            color: #fff;
+            animation: status 4s ease forwards;
+        }
+
+        @keyframes status {
+            0% {
+                opacity: 1;
+                pointer-events: all;
+            }
+
+            90% {
+                opacity: 1;
+                pointer-events: all;
+            }
+            100% {
+                opacity: 0;
+                pointer-events: none;
+            }
+        }
     </style>
 </head>
 
@@ -62,22 +97,6 @@
             
             <div class="col-lg-8 col-md-12 main-menu">
                 
-                <nav class="navbar navbar-light">
-                  <!-- <ul class="nav navbar-nav single-page-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#gallery">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                  </ul> -->
-                </nav>
               
             </div>
             
@@ -105,7 +124,7 @@
                     sign of longevity, which is not only attractive to customers, but also is desirable to potential Clients.</p>
                 <a href="#gallery" class="btn btn-danger sigma-start" style="display: none;">Our Gallery</a>
                 <a href="#about" class="btn btn-success sigma-start" style="display: none;">Learn More</a>
-                <h2 style="color: rgb(255, 145, 0); margin-top: 70px;">Some of my selected Visual Design Identity works</h2>
+                <h2 style="color: rgb(255, 145, 0); margin-top: 70px;">Some of my selective Visual Design Identity</h2>
             </div>
             
         </div>
@@ -122,38 +141,31 @@
 
         <div class="row">
         
-			<a href="./logo/logo-1.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 01">
+			<a href="./logo/logo-1.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="complimentary">
             <img src="./logo/logo-1.jpg" alt="Image 1" class="img-fluid sigmapad col-lg-4 col-md-6 col-sm-6 animate"></a>
 
-			<a href="./logo/logo-2.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 02"
+			<a href="./logo/logo-2.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="brand logo"
             	data-footer="">
             <img src="./logo/logo-2.jpg" alt="Image 2" class="img-fluid sigmapad col-lg-4 col-md-6 col-sm-6"></a>
 
-			<a href="./logo/logo-3.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 03">
+			<a href="./logo/logo-3.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="T-shirt branding">
 			<img src="./logo/logo-3.jpg" alt="Image 3" class="img-fluid sigmapad col-lg-4 col-md-8 col-sm-12 animate"></a>
 
 			<a href="./logo/logo-4.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 04"
             	data-footer="Aenean et tortor nec odio tempor volutpat nec in dui. Etiam libero turpis, accumsan nec.">
 			<img src="./logo/logo-5.jpg" alt="Image 4" class="img-fluid sigmapad col-lg-8 col-md-4 col-sm-6 animate"></a>
 
-			<a href="./logo/logo-6.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 05">
-			<img src="./logo/logo-6.jpg" alt="Image 5" class="img-fluid sigmapad col-lg-4 col-md-4 col-sm-6 animate"></a>
+			<a href="./logo/logo-8.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 05">
+			<img src="./logo/logo-8.jpg" alt="Image 5" class="img-fluid sigmapad col-lg-4 col-md-4 col-sm-6 animate"></a>
 			
             <a href="./logo/logo-1.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 06">
             <img src="./logo/logo-1.jpg" alt="Image 6" class="img-fluid sigmapad col-lg-4 animate" title="Bicycle"></a>
-            
 
-			<a href="./logo/logo-6.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 07">
-			<img src="./logo/logo-6.jpg" alt="Image 7" class="img-fluid sigmapad col-sm-6 animate" title="Walking"></a>
+			<a href="./logo/logo-7.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 07">
+			<img src="./logo/logo-7.jpg" alt="Image 4" class="img-fluid sigmapad col-sm-6 animate" title="Walking"></a>
 
-			<a href="./logo/logo-7.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 08">
-			<img src="./logo/logo-7.jpg" alt="Image 8" class="img-fluid sigmapad col-sm-6 animate" title="Camera"></a>
-
-            <!-- <a href="./New folder/ui-8.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 08">
-            <img src="./New folder/ui-8.jpg" alt="Image 8" class="img-fluid sigmapad col-sm-6 animate" title="Camera"></a>
-
-                <a href="./New folder/ui-9.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 08">
-                <img src="./New folder/ui-9.jpg" alt="Image 8" class="img-fluid sigmapad col-sm-6 animate" title="Camera"></a> -->
+			<a href="./logo/logo-4.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="Image Title 08">
+			<img src="./logo/logo-4.jpg" alt="Image 8" class="img-fluid sigmapad col-sm-6 animate" title="Camera"></a>
 
         
         </div>
@@ -169,6 +181,8 @@
         
 	</div>
     
+</section>
+            
 </section>
             
 <section id="contact">
@@ -191,18 +205,18 @@
                 <div class="col-md-6">
                		<fieldset class="form-group">
                         <label for="name">Your Name</label>
-                        <input type="text" class="form-control" name="full name" id="name" placeholder="Write a full name">
+                        <input type="text" class="form-control" name="full name" id="name" placeholder="Write a full name" required>
                   	</fieldset>
                   
                   	<fieldset class="form-group">
                     	<label for="email">Your Email</label>
-                    	<input type="email" class="form-control" name="email" id="email" placeholder="Enter your email">
+                    	<input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
                     	
                   	</fieldset>
 
                       <fieldset class="form-group">
                     	<label for="number">Your phone number</label>
-                    	<input type="number" class="form-control" name="number" id="email" placeholder="Enter your phone number">
+                    	<input type="number" class="form-control" name="number" id="email" placeholder="Enter your phone number" required>
                     	
                   	</fieldset>
                 </div> 
@@ -210,7 +224,7 @@
                  
                  	<fieldset class="form-group">
                         <label for="subject">Subject</label>
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
                   	</fieldset>
                     
                   	<fieldset class="form-group">
@@ -225,9 +239,7 @@
                   	</div>
                   
                   	<button type="submit" name="submit" class="btn btn-success btn-lg">Submit</button>
-                      <!-- <div class="bck" >
-                      <a href="../index.html" >Back to Home Page</a>
-                    </div> -->
+                      
                 </div>  
             	</form>
                 
@@ -246,6 +258,8 @@
 	</div>
 
     <div id="status"></div>
+    
+    
     
 </section>
 
@@ -273,10 +287,12 @@
 
 </footer>
 
+        <script src="../js/script.js"></script> 
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
         <script src="js/ekko-lightbox.min.js"></script>
         <script src="js/jquery.singlePageNav.min.js"></script>
+        
         <script>
 
             // Prevent console.log from generating errors in IE for the purposes of the demo

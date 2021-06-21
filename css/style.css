@@ -977,7 +977,7 @@ header .menu-burger {
 #menu-overlay .primary-nav li {
   overflow: hidden; }
   #menu-overlay .primary-nav li a {
-    font-size: 64px;
+    font-size: 30px !important;
     color: rgba(255, 255, 255, 0.65);
     font-weight: 700;
     display: block;
